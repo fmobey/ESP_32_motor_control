@@ -192,7 +192,17 @@ child: Text("Komut"),
             : Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
-
+  ElevatedButton(
+	
+    child: Text('fmobey.com'),
+	
+    onPressed: () {
+	
+      print('Pressed');
+	
+    },
+	
+  ),
 
 	
                   JoystickView(
